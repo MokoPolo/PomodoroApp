@@ -3,7 +3,7 @@
   "name": "Timer Application",
   "icons": [
     {
-      "src": "/icons/desk-clock_3643444.png",
+      "src": "./icons/desk-clock_3643444.png",
       "type": "image/png",
       "sizes": "512x512"
     }
