@@ -1,15 +1,14 @@
 const Timer: React.FC = () => {
   function sendNotification() {
-    // setTimeout(() => {
-    //   addNotification({
-    //     title: "Pomodoro Timer",
-    //     // subtitle: "This is a subtitle",
-    //     message: "Time to take a break!",
-    //     theme: "red",
-    //     native: true, // when using native, your OS will handle theming.
-    //   });
-    // }, 2000);
-    alert("Notification sent!");
+    Notification.requestPermission().then((perm) => {
+      if (perm === "granted") {
+        new Notification("Pomodoro", {
+          body: "Time to take a break!",
+          icon: "/favicon.ico",
+        });
+      }
+    });
+    //alert("Notification sent!");
   }
   return (
     <div>
@@ -19,5 +18,4 @@ const Timer: React.FC = () => {
   );
 };
 
-// https://www.npmjs.com/package/@bdhamithkumara/react-push-notification
 export default Timer;
