@@ -1,7 +1,5 @@
 # PomodoroApp
 
-manifest reinstate
-do lighthouse
-icons
+work on sending notifications
 
-find out why github pages doesn't have static files ie icons
+// https://onlinepngtools.com/resize-png#tool
