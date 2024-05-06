@@ -1,0 +1,16 @@
+{
+  "short_name": "PomodoroApp",
+  "name": "Timer Application",
+  "icons": [
+    {
+      "src": "./icons/desk-clock_3643444.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000"
+}

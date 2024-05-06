@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <p>lalalalal2</p>
+        <p>lalalalal10</p>
         <Timer />
       </div>
     </>
